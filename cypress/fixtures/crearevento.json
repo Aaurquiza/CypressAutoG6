@@ -1,0 +1,11 @@
+{
+  "usuarioValido": "admin@admin.com",
+  "contrasenaValida": "admin",
+  "usuarioInvalido": "notelodigo@notelodigo.com",
+  "contrasenaInvalida": "noteladigo",
+  "fechaInvalida": "17/09/2024",
+  "fechaValida": "23/09/2025",
+  "titulo": "Divididos",
+  "genero": "Música",
+  "duracionValida": "120"
+}
