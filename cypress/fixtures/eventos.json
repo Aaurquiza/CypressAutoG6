@@ -1,0 +1,66 @@
+{
+  "usuario": {
+    "email": "maximilianogv@gmail.com",
+    "password": "MGVproducciones1@"
+  },
+  "lugar": {
+    "tipo": "Otro",
+    "nombre": "Estadio Max",
+    "calle": "Calle Falsa 123",
+    "altura": "123",
+    "codigoPostal": "1234",
+    "provincia": "Buenos Aires",
+    "localidad": "Ensenada"
+  },
+  "fechaHora": {
+    "dia": "20",
+    "mes": "09",
+    "anio": "2025",
+    "hora": "12",
+    "minuto": "00"
+  },
+  "test": {
+    "fechaInvalida": {
+      "titulo": "Evento con fecha inválida",
+      "info": "Test fecha en el pasado",
+      "fechaHora": { "dia": "01", "mes": "01", "anio": "2020", "hora": "12", "minuto": "00" }
+    },
+    "duracionInvalida": {
+      "titulo": "Evento con duración inválida",
+      "info": "Test duración inválida"
+    },
+    "tituloVacio": {
+      "info": "Test sin título"
+    },
+    "infoVacia": {
+      "titulo": "Evento sin descripción"
+    },
+    "generoVacio": {
+      "titulo": "Evento sin género",
+      "info": "Test género obligatorio"
+    }
+  },
+  "eventoRealista": {
+    "titulo": "Erreway en el Movistar Arena",
+    "info": "Recital de Erreway, banda argentina de pop-rock.",
+    "lugar": {
+      "tipo": "Otro",
+      "nombre": "Movistar Arena",
+      "calle": "Humboldt",
+      "altura": "450",
+      "codigoPostal": "1414",
+      "provincia": "Ciudad Autónoma de Buenos Aires",
+      "localidad": "Villa Crespo"
+    },
+    "fechaHora": {
+      "dia": "23",
+      "mes": "09",
+      "anio": "2025",
+      "hora": "21",
+      "minuto": "00"
+    },
+    "genero": "Recital",
+    "edad": "ATP",
+    "duracion": { "hora": "2", "minuto": "00" }
+  }
+}

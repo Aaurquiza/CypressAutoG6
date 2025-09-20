@@ -1,11 +1,12 @@
 {
-  "usuarioValido": "admin@admin.com",
-  "contrasenaValida": "admin",
-  "usuarioInvalido": "notelodigo@notelodigo.com",
-  "contrasenaInvalida": "noteladigo",
-  "fechaInvalida": "17/09/2024",
-  "fechaValida": "23/09/2025",
-  "titulo": "Divididos",
-  "genero": "Música",
-  "duracionValida": "120"
+  "nombreLugar": "Estadio Max",
+  "calle": "Calle Falsa",
+  "altura": "123",
+  "codigoPostal": "1234",
+  "provincia": "Buenos Aires",
+  "localidad": "Ensenada",
+  "errores": {
+    "tituloVacio": "El título no puede estar vacío.",
+    "descripcionVacia": "La información no puede estar vacía."
+  }
 }

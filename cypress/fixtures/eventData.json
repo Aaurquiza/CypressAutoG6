@@ -1,0 +1,28 @@
+{
+  "login": {
+    "email": "maximilianogv@gmail.com",
+    "password": "MGVproducciones1@"
+  },
+  "lugar": {
+    "nombre": "Estadio Max",
+    "calle": "Calle Falsa 123",
+    "altura": "123",
+    "codigoPostal": "1234",
+    "provincia": "Buenos Aires",
+    "localidad": "Ensenada"
+  },
+  "fechaValida": {
+    "dia": "20",
+    "mes": "09",
+    "anio": "2025",
+    "hora": "12",
+    "minuto": "00"
+  },
+  "fechaInvalida": {
+    "dia": "01",
+    "mes": "01",
+    "anio": "2020",
+    "hora": "12",
+    "minuto": "00"
+  }
+}
