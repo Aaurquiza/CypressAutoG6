@@ -48,10 +48,15 @@ describe('Automatización del registro de usuario', () => {
         cy.get('[data-cy="input-password"]').type(userData.password);
         cy.get('[data-cy="input-repetir-password"]').type(userData.password);
 
-        // Paso 2: Hacer clic en el botón de registro
+        // Paso 2: Capturar el alert que debe aparecer al registrarse
+        cy.on('window:alert', (text) => {
+            expect(text).to.contain('Usuario registrado con éxito');
+        });
+
+        // Paso 3: Hacer clic en el botón de registro
         cy.get('button[type="submit"]').click();
 
-        // Paso 3: Validar que el registro fue exitoso verificando la redirección
+        // Paso 4: Validar que el registro fue exitoso verificando la redirección
         cy.url().should('include', '/auth/login');
     });
 });
