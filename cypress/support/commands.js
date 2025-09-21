@@ -14,7 +14,6 @@ Cypress.Commands.add('loginCliente', () => {
 Cypress.Commands.add('logOut', () => {
 cy.get('.lg\\:hidden > .justify-end > .z-0').click(); // Open the menu
 cy.get(':nth-child(8) > .pb-4').should('be.visible').click(); // Click on "Cerrar sesión"
-
 });
 
 const PersonaEmail = 'gmail@gmail.com';
@@ -27,24 +26,7 @@ Cypress.Commands.add('loginPersona', () => {
   cy.get('[data-cy="input-password"]').type(PersonaPassword);
   cy.get('[data-cy="btn-login"]').click();
   cy.get('[data-cy="error-message"]').should('not.exist');
-
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
