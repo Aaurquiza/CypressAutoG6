@@ -15,12 +15,12 @@ it("Debe permitir que un usuario registrado inicie sesión correctamente", () =>
   cy.get('input[placeholder="Busca tu próxima función!"]').should("be.visible");
 
   //Aprobar evntos con credencial de Admin
-  //cy.get(".lg\\:hidden > .justify-end > .z-0").click();
-  //cy.get(":nth-child(9) > .pb-4").click();
-  //cy.get('[data-cy="select-estado-429"] > .absolute').click();
-  //cy.get('[data-cy="option-estado-429-aprobado"]').click();
-  //cy.get('[data-cy="btn-confirmar-modal"]').click();
-  //cy.contains('.cursor-pointer', 'Aprobado').click();
+  cy.get(".lg\\:hidden > .justify-end > .z-0").click();
+  cy.get(":nth-child(9) > .pb-4").click();
+  cy.get('[data-cy="select-estado-429"] > .absolute').click();
+  cy.get('[data-cy="option-estado-429-aprobado"]').click();
+  cy.get('[data-cy="btn-confirmar-modal"]').click();
+  cy.contains('.cursor-pointer', 'Aprobado').click();
 
   //Aprobación de evento 424
  cy.get('.lg\\:hidden > .justify-end > .z-0').click();
